@@ -1,0 +1,71 @@
+body {
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 3em;
+}
+
+h2 {
+  font-family: 'Slabo 13px', serif;
+}
+
+p {
+  font-family: 'Hind Guntur', sans-serif;
+}
+
+/* Title section */
+
+#title-section {
+  background-color: #F6F6F6;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding: 1% 15%;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+.nav-link {
+  font-weight: bold;
+}
+
+.nav-item {
+  margin: 0 1em;
+}
+
+.welcome-text {
+  margin-top: 5em;
+}
+
+.carl-profile-image {
+  border-radius: 100%;
+  width: 70%;
+  margin-left: 11em;
+  margin-top: 3em;
+}
+
+.welcome-paragraph-start {
+  width: 65%;
+  margin-top: 3em;
+}
+
+.welcome-paragraph-text {
+  width: 65%;
+}
+
+@media (max-width: 900px){
+
+  .carl-profile-image {
+    border-radius: 100%;
+    width: 70%;
+    margin-left: 1em;
+    margin-top: 2em;
+  }
+}
