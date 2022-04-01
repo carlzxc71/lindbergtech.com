@@ -1,3 +1,5 @@
+/* Major selectors */
+
 body {
   line-height: 1.5;
 }
@@ -59,6 +61,8 @@ p {
 .welcome-paragraph-text {
   width: 65%;
 }
+
+/* Media adjustments */
 
 @media (max-width: 900px){
 
