@@ -7,20 +7,24 @@ body {
 h1 {
   font-family: 'Nunito', sans-serif;
   font-size: 3em;
+  color: white;
 }
 
 h2 {
   font-family: 'Slabo 13px', serif;
+  color: white;
 }
 
 p {
   font-family: 'Hind Guntur', sans-serif;
+  color: white;
 }
 
 /* Title section */
 
 #title-section {
   background-color: #F6F6F6;
+  background-color: #1B1A17;
 }
 
 .container-fluid {
@@ -60,6 +64,12 @@ p {
 
 .welcome-paragraph-text {
   width: 65%;
+}
+
+/* Skill section */
+
+#skill-section {
+  background-color: #E6D5B8;
 }
 
 /* Media adjustments */
