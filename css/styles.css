@@ -12,12 +12,15 @@ h1 {
 
 h2 {
   font-family: 'Slabo 13px', serif;
-  color: white;
+}
+
+h3 {
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.5;
 }
 
 p {
   font-family: 'Hind Guntur', sans-serif;
-  color: white;
 }
 
 /* Title section */
@@ -50,6 +53,10 @@ p {
   margin-top: 5em;
 }
 
+.title-heading {
+  color: white;
+}
+
 .carl-profile-image {
   border-radius: 100%;
   width: 70%;
@@ -60,18 +67,41 @@ p {
 .welcome-paragraph-start {
   width: 65%;
   margin-top: 3em;
+  color: white;
 }
 
 .welcome-paragraph-text {
   width: 65%;
+  color: white;
 }
 
 /* Skill section */
 
 #skill-section {
-  background-color: #E6D5B8;
+  background-color: white;
+  padding-bottom: 30%;
+  text-align: center;
 }
 
+.azure-logo {
+  width: 30%;
+  padding-bottom: 3%;
+}
+
+.m365-logo {
+  width: 30%;
+  padding-bottom: 3%;
+}
+
+.citrix-logo {
+  width: 30%;
+  padding-bottom: 3%;
+}
+
+.carousel-item {
+  padding: 10% 15%;
+  height: 35em;
+}
 /* Media adjustments */
 
 @media (max-width: 900px){
