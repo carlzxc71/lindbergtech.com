@@ -7,10 +7,16 @@ body {
 h1 {
   font-family: 'Nunito', sans-serif;
   font-size: 3em;
+  color: white;
 }
 
 h2 {
   font-family: 'Slabo 13px', serif;
+}
+
+h3 {
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.5;
 }
 
 p {
@@ -21,6 +27,7 @@ p {
 
 #title-section {
   background-color: #F6F6F6;
+  background-color: #1B1A17;
 }
 
 .container-fluid {
@@ -46,6 +53,10 @@ p {
   margin-top: 5em;
 }
 
+.title-heading {
+  color: white;
+}
+
 .carl-profile-image {
   border-radius: 100%;
   width: 70%;
@@ -56,12 +67,46 @@ p {
 .welcome-paragraph-start {
   width: 65%;
   margin-top: 3em;
+  color: white;
 }
 
 .welcome-paragraph-text {
   width: 65%;
+  color: white;
 }
 
+/* Skill section */
+
+#skill-section {
+  background-color: white;
+  padding-bottom: 30%;
+  text-align: center;
+}
+
+.azure-logo {
+  width: 35%;
+  padding-bottom: 3%;
+}
+
+.m365-logo {
+  width: 30%;
+  padding-bottom: 3%;
+}
+
+.citrix-logo {
+  width: 30%;
+  padding-bottom: 3%;
+  margin-top: 2em;
+}
+
+.citrix-text {
+  margin-top: 1em;
+}
+
+.carousel-item {
+  padding: 10% 15%;
+  height: 35em;
+}
 /* Media adjustments */
 
 @media (max-width: 900px){
