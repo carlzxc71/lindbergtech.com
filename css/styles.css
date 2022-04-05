@@ -26,7 +26,6 @@ p {
 /* Title section */
 
 #title-section {
-  background-color: #F6F6F6;
   background-color: #1B1A17;
 }
 
@@ -79,7 +78,7 @@ p {
 
 #skill-section {
   background-color: white;
-  padding-bottom: 30%;
+  padding-bottom: 10%;
   text-align: center;
 }
 
@@ -107,6 +106,13 @@ p {
   padding: 10% 15%;
   height: 35em;
 }
+
+/* Tech blog section */
+
+#tech-blogs {
+  background-color: blue;
+}
+
 /* Media adjustments */
 
 @media (max-width: 900px){
