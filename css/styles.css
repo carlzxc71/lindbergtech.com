@@ -15,11 +15,16 @@ h2 {
 }
 
 h3 {
-  font-family: 'Nunito', sans-serif;
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'Hind Guntur', sans-serif;
   line-height: 1.5;
 }
 
 p {
+  font-family: 'Hind Guntur', sans-serif;
+}
+
+a {
   font-family: 'Hind Guntur', sans-serif;
 }
 
@@ -54,6 +59,7 @@ p {
 
 .title-heading {
   color: white;
+  padding-bottom: 5%;
 }
 
 .carl-profile-image {
@@ -82,35 +88,100 @@ p {
   text-align: center;
 }
 
+.skill-heading {
+  color: black;
+  font-weight: bold;
+}
+
 .azure-logo {
-  width: 35%;
   padding-bottom: 3%;
 }
 
 .m365-logo {
-  width: 30%;
   padding-bottom: 3%;
 }
 
 .citrix-logo {
-  width: 30%;
   padding-bottom: 3%;
-  margin-top: 2em;
-}
-
-.citrix-text {
-  margin-top: 1em;
 }
 
 .carousel-item {
   padding: 10% 15%;
-  height: 35em;
+  height: 45em;
 }
 
-/* Tech blog section */
+/* About me section */
 
-#tech-blogs {
-  background-color: blue;
+#aboutme-section {
+  background-color: #1B1A17;
+}
+
+#aboutme-section .container-fluid {
+  padding: 7% 15%;
+}
+
+.aboutme-row {
+  padding-bottom: 10%;
+}
+
+.cmd-image {
+  width: 70%;
+  border-radius: 100%;
+}
+
+.workout-image {
+  width: 50%;
+  border-radius: 50%;
+  margin-left: 9em;
+}
+
+.specialist-block {
+  color: white;
+  margin-top: 2em;
+}
+
+.passion-block-heading {
+  color: white;
+  margin-top: 3em;
+}
+
+.passion-block-paragraph {
+  color: white;
+  margin-top: 2em;
+}
+
+/* Blog section */
+
+#articles-section {
+  background-color: white;
+  text-align: left;
+}
+
+#articles-section .container-fluid {
+  padding: 7% 15%;
+}
+
+.articles-heading {
+  color: black;
+  font-weight: bold;
+  padding-bottom: 7%;
+}
+
+.articles-paragraph {
+  padding-bottom: 15%;
+  width: 80%;
+}
+
+.articles-image {
+  width: 50%;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+/* Footer section */
+
+footer {
+  background-color: #1B1A17;
 }
 
 /* Media adjustments */
@@ -122,5 +193,21 @@ p {
     width: 70%;
     margin-left: 1em;
     margin-top: 2em;
+  }
+
+  .aboutme-row {
+    padding-bottom: 0.5rem;
+  }
+
+  .cmd-image {
+    margin-left: 3em;
+  }
+
+  .workout-image {
+    margin-left: 4em;
+  }
+
+  .articles-image {
+    margin-left: 10%;
   }
 }
