@@ -204,6 +204,30 @@ a {
 
 footer {
   background-color: #1B1A17;
+  text-align: center;
+}
+
+.copyright-paragraph {
+  color: white;
+}
+
+.fa-linkedin {
+  color: white;
+  padding: 3%;
+}
+
+.fa-envelope {
+  color: white;
+  padding: 3%;
+}
+
+.fa-instagram {
+  color: white;
+  padding: 3%;
+}
+
+.footer-link {
+  color: white;
 }
 
 /* Media adjustments */
