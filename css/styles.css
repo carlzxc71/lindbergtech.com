@@ -167,7 +167,7 @@ a {
 
 .articles-paragraph {
   padding-bottom: 3%;
-  width: 30%;
+  width: 70%;
 }
 
 .articles-image {
@@ -355,4 +355,28 @@ footer {
   .articles-image {
     margin-left: 10%;
   }
+}
+
+/* ARTICLE PAGE */
+
+#articlepage-section {
+  background: #ecf0f1;
+}
+
+.nav-color {
+  background-color: #1B1A17;
+}
+
+.articlepage-heading {
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  font-family: 'Hind Guntur', sans-serif;
+  text-align: center;
+  font-size: 4rem;
+  padding: 5% 10%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
 }
