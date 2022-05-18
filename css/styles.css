@@ -27,6 +27,12 @@ h4 {
   font-weight: bold;
 }
 
+h5 {
+  font-family: 'Hind Guntur', sans-serif;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
 p {
   font-family: 'Hind Guntur', sans-serif;
 }
@@ -379,4 +385,50 @@ footer {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2%;
+}
+
+.article-grouping {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.article-1 {
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 4rem;
+  padding: 5% 10%;
+  width: 100%;
+  /* margin: auto; */
+  margin-top: 2%;
+  margin-left: 10%;
+}
+
+.article-paragraph {
+  font-size: 1rem;
+  padding-top: 3%;
+}
+
+.about-me-side {
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 4rem;
+  padding: 5% 10%;
+  width: 50%;
+  margin-top: 2%;
+  margin-left: 40%;
+  text-align: center;
+}
+
+.aboutme-profile-image {
+    border-radius: 100%;
+    width: 70%;
+    /* margin-left: 11em;
+    margin-top: 3em; */
 }
