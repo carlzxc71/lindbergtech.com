@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Lindbergtech Webpage</title>
+  <title>Lindbergtech Homepage</title>
   <link rel="icon" href="images/widescreen_tv.ico">
 
   <!-- CSS Stylesheets -->
@@ -24,12 +24,14 @@
 
 <body>
 
+  <!-- Title -->
+
   <section id="title-section">
 
     <!-- Nav bar -->
 
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="#">Lindberg Tech</a>
+      <a class="navbar-brand" href="index.html">Lindberg Tech</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-toggler01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -45,7 +47,7 @@
             <a class="nav-link" href="#aboutme-section" style="color: white;">About me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#articles-section" style="color: white;">Articles</a>
+            <a class="nav-link" href="#articles-link" style="color: white;">Articles</a>
           </li>
         </ul>
       </div>
@@ -58,11 +60,8 @@
         <div class="col-lg-6 col-md-6 welcome-text">
           <h1>Hi, I'm Carl Lindberg</h1>
           <h2 class="title-heading">An IT professional.</h2>
-          <!-- <h3 class="welcome-paragraph-start">Welcome to my website, glad you made it!</p> -->
-          <!-- <h3 class="welcome-paragraph-text">I am a professional IT-technician with focus on cloud technologies and owner of Lindbergtech.com</h3> -->
           <h3 class="welcome-paragraph-text">My focus is on cloud & security technologies. I am the owner of Lindbergtech.com</h3>
           <h3 class="welcome-paragraph-text">My goal with this site is to tell you more about me, what I work with & what I do when I am not working.</h3>
-          <!-- <h3 class="welcome-paragraph-text">While you are here be sure to check out my blogposts where I will write about what I do on a daily basis.</h3> -->
         </div>
 
         <div class="col-lg-6 col-md-6">
@@ -77,12 +76,11 @@
 
   </section>
 
+  <!-- Skills -->
+
   <section id="skill-section">
 
     <div class="container-fluid">
-
-
-      <!-- <h1 class="skill-heading">Certifications</h1> -->
 
       <!-- Skill carousel start -->
 
@@ -128,6 +126,8 @@
 
   </section>
 
+  <!-- About me section -->
+
   <section id="aboutme-section">
 
     <div class="container-fluid">
@@ -163,37 +163,84 @@
 
   </section>
 
-  <section id="articles-section">
+  <!-- Articles -->
+
+  <section id="articles-link" class="articles-section">
 
     <div class="container-fluid">
 
       <div class="row">
 
-        <div class="col-lg-6 col-md-6">
-          <h1 class="articles-heading">Articles</h2>
-            <h3 class="articles-paragraph">I enjoy writing about my work and share my accomplishments, difficulties & insights. Hope you will enjoy joining me on my technology & fitness journey.
-            Click <a href="#articles-section">here</a> to get to all articles.</h3>
+        <div class="col-md-6">
+          <h1 class="articles-heading">Tech Articles</h2>
         </div>
 
-        <div class="col-lg-6 col-md-6">
-          <!-- <img class="articles-image" src="images/articles-image.png" alt="article-image"> -->
-          <h3 class="articles-latest-tech"><i class="fa-solid fa-terminal"></i> Latest tech articles</h3>
-          <ul>
-            <li class="tech-link"><a href="#">2022-04-10 - Link</a></li>
-            <li class="tech-link"><a href="#">2022-04-10 - Link</a></li>
-            <li class="tech-link"><a href="#">2022-04-10 - Link</a></li>
-            <li class="tech-link"><a href="#">2022-04-10 - Link</a></li>
-            <li class="tech-link"><a href="#">2022-04-10 - Link</a></li>
-          </ul>
+        <div class="col-md-6">
+          <h3 class="articles-paragraph">I enjoy writing about my work and share my accomplishments, difficulties & insights. Hope you will enjoy joining me on my technology & fitness journey.
+            Click <a href="articles.html">here</a> to get to all articles.</h3>
+        </div>
 
-          <h3 class="articles-latest-personal"><i class="fa-solid fa-person-running"></i> Latest personal articles</h3>
-          <ul>
-            <li class="personal-link"><a href="#">2022-04-10 - Link</a></li>
-            <li class="personal-link"><a href="#">2022-04-10 - Link</a></li>
-            <li class="personal-link"><a href="#">2022-04-10 - Link</a></li>
-            <li class="personal-link"><a href="#">2022-04-10 - Link</a></li>
-            <li class="personal-link"><a href="#">2022-04-10 - Link</a></li>
-          </ul>
+      </div>
+
+
+
+    </div>
+
+
+
+    <div class="container-fluid">
+
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="card-content">
+            <div class="card-img">
+              <img src="https://placeimg.com/380/230/nature" alt="test-image">
+              <span>
+                <h4>Azure AD Connect Upgrade</h4>
+              </span>
+            </div>
+            <div class="card-desc">
+              <h3>Swing migration of Azure AD Connect</h3>
+              <p>Article that describes how to perform a swing migration upgrade of Azure AD connect,
+                why and when you would want to do so.</p>
+              <a href="#" class="btn-card">Read</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card-content">
+            <div class="card-img">
+              <img src="https://placeimg.com/380/230/nature" alt="test-image">
+              <span>
+                <h4>Azure AD Connect Upgrade</h4>
+              </span>
+            </div>
+            <div class="card-desc">
+              <h3>Swing migration of Azure AD Connect</h3>
+              <p>Article that describes how to perform a swing migration upgrade of Azure AD connect,
+                why and when you would want to do so.</p>
+              <a href="#" class="btn-card">Read</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card-content">
+            <div class="card-img">
+              <img src="https://placeimg.com/380/230/nature" alt="test-image">
+              <span>
+                <h4>Azure AD Connect Upgrade</h4>
+              </span>
+            </div>
+            <div class="card-desc">
+              <h3>Swing migration of Azure AD Connect</h3>
+              <p>Article that describes how to perform a swing migration upgrade of Azure AD connect,
+                why and when you would want to do so.</p>
+              <a href="#" class="btn-card">Read</a>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -201,6 +248,7 @@
     </div>
 
   </section>
+
 
   <!-- Footer -->
 
