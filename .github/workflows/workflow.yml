@@ -11,7 +11,6 @@ permissions:
 
 env: 
   AZURE_RESOURCEGROUP_NAME: githubActionsTest
-  ENVIRONMENT_TYPE: Test
 
 jobs:
   lint:
