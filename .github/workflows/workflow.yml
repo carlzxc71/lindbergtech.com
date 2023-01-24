@@ -19,4 +19,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run bicep linter
-        run: az bicep build --file deploy/mian.bicep
+        run: az bicep build --file deploy/main.bicep
