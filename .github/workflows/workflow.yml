@@ -37,7 +37,7 @@ jobs:
           deploymentName: ${{ github.run_number }}
           resourceGroupName: ${{ env.AZURE_RESOURCEGROUP_NAME }}
           template: ./deploy/main.bicep
-          parameters: environmentType=${{ env.ENVIRONMENT_TYPE }}
+          parameters: deploy/prod-params.json
           deploymentMode: Validate
 
   preview: 
@@ -57,6 +57,5 @@ jobs:
           failOnStdErr: false
           resourceGroupName: ${{ env.AZURE_RESOURCEGROUP_NAME }}
           template: deploy/main.bicep
-          parameters: >
-            environmentType=${{ env.ENVIRONMENT_TYPE }}
+          parameters: deploy/prod-params.json
           additionalArguments: --what-if
