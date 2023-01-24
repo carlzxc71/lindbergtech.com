@@ -8,12 +8,14 @@ param appServiceConfiguration object
 param env string
 param currentDate string = utcNow('yyyy-MM-dd')
 param product string 
+param environmentType string
 
 var tagValues = {
   createdBy: 'lindbergtech-cicd'
   environment: env
   deploymentDate: currentDate
   product: product
+  environmentType: environmentType
 }
 
 
