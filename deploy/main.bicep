@@ -24,5 +24,3 @@ module appServiceDeployment 'modules/appService.bicep' = {
     tagValues: tagValues
   }
 }
-
-//
