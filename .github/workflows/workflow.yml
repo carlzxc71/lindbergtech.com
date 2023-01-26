@@ -74,7 +74,7 @@ jobs:
       - uses: azure/arm-deploy@v1
         name: Deploy website
         with:
-          failOnStdError: false
+          failOnStdErr: false
           deploymentName: ${{ github.run_number }}
           resourceGroupName: ${{ env.AZURE_RESOURCEGROUP_NAME }}
           template: deploy/main.bicep
