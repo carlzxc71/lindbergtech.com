@@ -1,5 +1,3 @@
-
-
 param location string
 
 param appServicePlanConfiguration object
