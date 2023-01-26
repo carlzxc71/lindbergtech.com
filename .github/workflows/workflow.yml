@@ -77,5 +77,5 @@ jobs:
           failOnStdError: false
           deploymentName: ${{ github.run_number }}
           resourceGroupName: ${{ env.AZURE_RESOURCEGROUP_NAME }}
-          template: deploy/main.biceo
+          template: deploy/main.bicep
           paramaters: deploy/prod-params.json
